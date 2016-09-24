@@ -12,6 +12,7 @@
 		63336CA01D96815800D7F2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63336C9E1D96815800D7F2A3 /* Main.storyboard */; };
 		63336CA21D96815800D7F2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63336CA11D96815800D7F2A3 /* Assets.xcassets */; };
 		63336CA51D96815800D7F2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63336CA31D96815800D7F2A3 /* LaunchScreen.storyboard */; };
+		63336CAD1D9698FE00D7F2A3 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63336CAC1D9698FE00D7F2A3 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		63336CA11D96815800D7F2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63336CA41D96815800D7F2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63336CA61D96815800D7F2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63336CAC1D9698FE00D7F2A3 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		63336C991D96815800D7F2A3 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				63336CAC1D9698FE00D7F2A3 /* Minecraft.ttf */,
 				63336C9A1D96815800D7F2A3 /* AppDelegate.swift */,
 				63336C9C1D96815800D7F2A3 /* ViewController.swift */,
 				63336C9E1D96815800D7F2A3 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				63336CA51D96815800D7F2A3 /* LaunchScreen.storyboard in Resources */,
 				63336CA21D96815800D7F2A3 /* Assets.xcassets in Resources */,
+				63336CAD1D9698FE00D7F2A3 /* Minecraft.ttf in Resources */,
 				63336CA01D96815800D7F2A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "retro-calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dianadianapinkberry.retro-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "retro-calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dianadianapinkberry.retro-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +303,7 @@
 				63336CAB1D96815800D7F2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
